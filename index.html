@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Fernando Gustavo - Desenvolvedor Full Stack, QA e Dados. Especialista em HTML, CSS, JavaScript, Vue.js, Python, MySQL e Testes de Software.">
+    <meta name="keywords" content="Desenvolvedor Full Stack, QA, Testes de Software, JavaScript, Vue.js, Python, MySQL, Desenvolvedor Júnior">
+    <meta name="author" content="Fernando Gustavo">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Fernando Gustavo - Desenvolvedor Full Stack | QA | Dados">
+    <meta property="og:description" content="Portfólio profissional de Fernando Gustavo. Desenvolvedor Full Stack, QA e Dados especializado em tecnologias modernas.">
+    <meta property="og:type" content="website">
+    
+    <title>Fernando Gustavo | Desenvolvedor Full Stack | QA | Dados</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background animado com partículas -->
+    <div class="background-animation" aria-hidden="true">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navegação principal">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">FG</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" aria-label="Ir para início">Início</a></li>
+                <li><a href="#about" class="nav-link" aria-label="Ir para sobre mim">Sobre</a></li>
+                <li><a href="#skills" class="nav-link" aria-label="Ir para habilidades">Skills</a></li>
+                <li><a href="#projects" class="nav-link" aria-label="Ir para projetos">Projetos</a></li>
+                <li><a href="#experience" class="nav-link" aria-label="Ir para experiência">Experiência</a></li>
+                <li><a href="#contact" class="nav-link" aria-label="Ir para contato">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="banner">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Bem-vindo ao meu portfólio</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Olá, eu sou</span>
+                    <span class="title-name">Fernando Gustavo</span>
+                    <span class="title-role" id="typewriter"></span>
+                </h1>
+                <p class="hero-description">
+                    Desenvolvedor apaixonado por tecnologia, sempre em busca de soluções inovadoras 
+                    e aprendizado contínuo. Transformando ideias em código de qualidade.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" aria-label="Ver meus projetos">
+                        <span>Ver Projetos</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Abrir perfil no GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Abrir perfil no LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Role para explorar</span>
+                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section" role="region" aria-labelledby="about-title">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">01</span>
+                <h2 class="section-title" id="about-title">Sobre Mim</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p class="lead">
+                        Sou um desenvolvedor <strong>Full Stack</strong> em formação, com foco em 
+                        <strong>qualidade de software</strong> e <strong>análise de dados</strong>. 
+                        Minha jornada na tecnologia começou com a curiosidade de entender como as 
+                        coisas funcionam por trás das telas.
+                    </p>
+                    <p>
+                        Atualmente, busco oportunidades de <strong>estágio ou vaga júnior</strong> 
+                        em Desenvolvimento ou QA, onde posso aplicar meus conhecimentos e continuar 
+                        aprendendo com profissionais experientes.
+                    </p>
+                    <p>
+                        Acredito que a tecnologia deve ser <strong>acessível</strong>, 
+                        <strong>eficiente</strong> e <strong>bem testada</strong>. Por isso, 
+                        dedico tempo tanto ao desenvolvimento quanto à garantia de qualidade, 
+                        sempre pensando na melhor experiência do usuário.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item reveal">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>Código limpo e bem estruturado</span>
+                        </div>
+                        <div class="highlight-item reveal">
+                            <i class="fas fa-bug" aria-hidden="true"></i>
+                            <span>Foco em qualidade e testes</span>
+                        </div>
+                        <div class="highlight-item reveal">
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                            <span>Aprendizado contínuo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section" role="region" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">02</span>
+                <h2 class="section-title" id="skills-title">Skills Técnicas</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Front-end -->
+                <div class="skill-category reveal">
+                    <div class="category-header">
+                        <i class="fas fa-paint-brush" aria-hidden="true"></i>
+                        <h3>Front-end</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="HTML">
+                            <i class="fab fa-html5" aria-hidden="true"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item" data-skill="CSS">
+                            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <i class="fab fa-js" aria-hidden="true"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item" data-skill="Bootstrap">
+                            <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item" data-skill="Vue.js">
+                            <i class="fab fa-vuejs" aria-hidden="true"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back-end -->
+                <div class="skill-category reveal">
+                    <div class="category-header">
+                        <i class="fas fa-server" aria-hidden="true"></i>
+                        <h3>Back-end</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Python">
+                            <i class="fab fa-python" aria-hidden="true"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item" data-skill="SQL">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banco de Dados -->
+                <div class="skill-category reveal">
+                    <div class="category-header">
+                        <i class="fas fa-database" aria-hidden="true"></i>
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="MySQL">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testes e Qualidade -->
+                <div class="skill-category reveal">
+                    <div class="category-header">
+                        <i class="fas fa-vial" aria-hidden="true"></i>
+                        <h3>Testes e Qualidade</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="QA">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i>
+                            <span>Testes de Software</span>
+                        </div>
+                        <div class="skill-item" data-skill="Scrum">
+                            <i class="fas fa-tasks" aria-hidden="true"></i>
+                            <span>Scrum</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferramentas -->
+                <div class="skill-category reveal">
+                    <div class="category-header">
+                        <i class="fas fa-tools" aria-hidden="true"></i>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Git">
+                            <i class="fab fa-git-alt" aria-hidden="true"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item" data-skill="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item" data-skill="Power Apps">
+                            <i class="fab fa-microsoft" aria-hidden="true"></i>
+                            <span>Power Apps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section" role="region" aria-labelledby="projects-title">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">03</span>
+                <h2 class="section-title" id="projects-title">Projetos</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/seu-usuario/projeto1" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver projeto no GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Projeto Full Stack</h3>
+                        <p class="project-description">
+                            Aplicação web completa com front-end em Vue.js e back-end em Python, 
+                            integrada com MySQL. Inclui autenticação, CRUD completo e testes automatizados.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 2 -->
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/seu-usuario/projeto2" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver projeto no GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content reveal">
+                        <h3 class="project-title">Sistema de Análise de Dados</h3>
+                        <p class="project-description">
+                            Dashboard interativo para análise de dados usando Python, com visualizações 
+                            dinâmicas e relatórios automatizados.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 3 -->
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/seu-usuario/projeto3" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver projeto no GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content reveal">
+                        <h3 class="project-title">Aplicação Web Responsiva</h3>
+                        <p class="project-description">
+                            Interface moderna e responsiva desenvolvida com HTML5, CSS3 e JavaScript 
+                            puro, seguindo boas práticas de UX/UI e acessibilidade.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 4 -->
+                <article class="project-card reveal">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/seu-usuario/projeto4" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Ver projeto no GitHub">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Framework de Testes QA</h3>
+                        <p class="project-description">
+                            Suite de testes automatizados para aplicações web, incluindo testes 
+                            funcionais, de integração e de performance.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">QA</span>
+                            <span class="tech-tag">Testes</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section" role="region" aria-labelledby="experience-title">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">04</span>
+                <h2 class="section-title" id="experience-title">Experiência & Formação</h2>
+            </div>
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - Presente</div>
+                        <h3 class="timeline-title">Estudante de Desenvolvimento</h3>
+                        <p class="timeline-description">
+                            Foco em Full Stack Development, QA e Análise de Dados. 
+                            Desenvolvendo projetos práticos e participando de comunidades tech.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Aprendizado Contínuo</span>
+                            <span class="tag">Projetos Práticos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <h3 class="timeline-title">Formação Técnica</h3>
+                        <p class="timeline-description">
+                            Estudos em desenvolvimento web, banco de dados, testes de software 
+                            e metodologias ágeis. Certificações em tecnologias modernas.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML/CSS/JS</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3 class="timeline-title">Início na Tecnologia</h3>
+                        <p class="timeline-description">
+                            Primeiros passos em programação, descobrindo a paixão por resolver 
+                            problemas através do código e criar soluções inovadoras.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Primeiros Projetos</span>
+                            <span class="tag">Fundamentos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section" role="region" aria-labelledby="contact-title">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-number">05</span>
+                <h2 class="section-title" id="contact-title">Vamos Conversar?</h2>
+            </div>
+            <div class="contact-content reveal">
+                <p class="contact-description">
+                    Estou sempre aberto a novas oportunidades e conversas sobre tecnologia. 
+                    Se você tem um projeto interessante ou uma oportunidade, entre em contato!
+                </p>
+                <div class="contact-buttons">
+                    <a href="mailto:12fernandogustavo@gmail.com" class="contact-btn reveal" aria-label="Enviar e-mail">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>E-mail</span>
+                    </a>
+                    <a href="https://linkedin.com/in/fernando-gustavo-72b801200/" target="_blank" rel="noopener noreferrer" class="contact-btn reveal" aria-label="Abrir perfil no LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/FernandoGustavoOn" target="_blank" rel="noopener noreferrer" class="contact-btn reveal" aria-label="Abrir perfil no GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p class="footer-text">
+                Desenvolvido com <i class="fas fa-heart" aria-hidden="true"></i> por 
+                <strong>Fernando Gustavo</strong> | <span id="currentYear"></span>
+            </p>
+            <p class="footer-subtext">
+                Código limpo, design moderno, performance otimizada.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
