@@ -107,14 +107,6 @@ O site é totalmente responsivo e otimizado para:
 - ✅ Títulos hierárquicos (H1-H3)
 - ✅ Alt text preparado para imagens
 
-## 📝 Próximos Passos
-
-1. **Adicionar imagens reais dos projetos**
-2. **Configurar links do GitHub e LinkedIn**
-3. **Adicionar certificações na seção de experiência**
-4. **Implementar formulário de contato (opcional)**
-5. **Adicionar blog ou artigos (opcional)**
-
 ## 🎯 Objetivo
 
 Este portfólio foi desenvolvido para:
@@ -122,10 +114,6 @@ Este portfólio foi desenvolvido para:
 - ✅ Demonstrar habilidades técnicas e atenção aos detalhes
 - ✅ Mostrar código limpo e profissional
 - ✅ Destacar projetos e experiências
-
-## 📄 Licença
-
-Este projeto é de uso pessoal. Sinta-se livre para usar como inspiração para seu próprio portfólio!
 
 ## 👨‍💻 Desenvolvido por
 
